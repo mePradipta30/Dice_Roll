@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.images>img{
+    width: 100px;
+    margin: 10px;
+}
+body{
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    background-color: beige;
+}
+#btn{
+    background-color: #7f3fff;
+    /* width: %; */
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#btn:hover{
+    background-color: #6464ef;
+}
+.dice{
+    margin-top: 10px;
+}
+#diceResults{
+    margin-top: 10px;
+}
+#diceImages{
+    margin-top: 10px;
+}
